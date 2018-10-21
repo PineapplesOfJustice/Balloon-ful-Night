@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Pangolin');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    /*filter: grayscale(100%);*/
+    background-image: url("Images/Background/Mountain.jpg");
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    padding: 0px;
+    border: 2px white solid;
+}
+
+h1 {
+    text-align: center;
+    font-family: Cabin;
+    font-size: 50px;
+    color: white;
+}
+
+*{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
